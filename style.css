@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #b2ff6a, #d4ffc7);
+    overflow-x: hidden;
+    /*overflow: hidden; */
+
+}
+
+div{
+    text-align: center;
+    
+   
+}
+
+#title{
+    text-align: center;
+  
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: -25px;
+    font-family: "Edu AU VIC WA NT Arrows", Arial, Helvetica, sans-serif ;
+}
+
+section{
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+
+
+.tiitt{ 
+    font-size: 0.7em;
+    padding-right: 80px ;
+    padding-left: 80px;
+}
+
+#af{
+    padding-top: 5px;
+}
+
+#dentro{
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+#pes{
+    width: 50px;
+}
+
+input.nuu {
+    width: 100px; /* Largura do input */
+    padding: 10px;
+    padding-bottom: 3px;
+    font-size: 1em;
+    border: 2px solid #ddd; 
+    /* Cor inicial da borda */
+
+    border-radius: 5px; 
+    /* Bordas arredondadas */
+
+    background-color: #f9f9f9; 
+    /* Cor de fundo */
+
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+input.nuu:hover {
+    border-color: #7efc00d8; 
+    /* Cor da borda ao passar o mouse */
+}
+
+#alt{
+    width: 50px;
+
+}
+
+#botão{
+    background-color: rgba(84, 255, 78, 0.74);
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#botão:hover{
+    background-color: rgba(6, 168, 0, 0.637);
+}
+
+#imagem{
+    width: 90%;
+    height: 240px;
+    margin-bottom:15px ;
+}
+
+#res{
+    padding-bottom: 20px;
+    margin: 30px;
+}
+
+/* CHAT GPT - NÃO SABIA:
+Quando o input é focado */
+
+input.nuu:focus {
+
+    border-color: #4CAF50;
+     /* Cor da borda no foco */
+
+    background-color: #eaffea;
+     /* Fundo levemente colorido no foco */
+
+    outline: none; 
+    /* Remove o contorno padrão do navegador */
+}
+
+.bott{
+    width: 100px; /* Largura do input */
+    font-size: 1em;
+
+    border: 2px solid #ddd; 
+    /* Cor inicial da borda */
+
+    border-radius: 5px; 
+    
+
+}
